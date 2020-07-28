@@ -1,0 +1,22 @@
+{
+  "name": "GetWINvalue",
+  "version": "1.0",
+  "description": "App to get the current price of a currency in Binance",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "page.html",
+    "default_icon": {
+      "16": "currency16.png",
+      "32": "currency32.png",
+      "48": "currency48.png",
+      "128": "currency128.png"
+    },
+    "icons": {
+      "16": "currency16.png",
+      "32": "currency32.png",
+      "48": "currency48.png",
+      "128": "currency128.png"
+    }
+  },
+  "permissions": ["storage"]
+}
